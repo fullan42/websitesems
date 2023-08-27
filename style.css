@@ -57,7 +57,7 @@ nav a:hover {
     border: 2px solid #532b1f;
     padding: 17.5%;
     font-size: 25px;
-    color : white;
+    color : black;
 }
 .shems-container {
     background-image: url("assets/images/sems.jpg"); /* Add your image path here */
