@@ -1,0 +1,188 @@
+
+body {
+   
+    margin: 0; /* Reset margin to zero */
+    padding: 0; /* Reset padding to zero */
+}
+
+  /* Style the header */
+/* Style the header */
+/* Style the header */
+header {
+    background-size: 400% 400%;
+    background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033, #d74177);
+    animation: 12s myGradient infinite;
+    border-radius: 40px;
+    box-shadow: 3px 3px 20px #ff3352;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+}
+
+/* Style the navigation menu */
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Align items to the center horizontally */
+    padding: 18px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px; /* Increase the space between items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style the navigation links on hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* style of şemşi
+/* Add a solid border to the section with id "shems" */
+/* Section with background color #532b1f */
+#shems {
+    
+    background-color: black;
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    background-size: cover; /* Optional: Cover the entire section */
+    border: 2px solid #532b1f;
+    padding: 17.5%;
+    font-size: 25px;
+    color : white;
+}
+.shems-container {
+    background-image: url("assets/images/sems.jpg"); /* Add your image path here */
+    background-size: cover; /* Adjust background size as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px; /* Add padding as needed */
+    text-align: center; /* Align content to the center */
+    color: black; /* Text color on the background image */
+}
+/* Style for the header container */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Space between the two headers */
+    align-items: flex-start; /* Align headers to the top of the container */
+    margin-bottom: 20px;
+}
+
+/* Style for the second header */
+#secondH {
+    text-align: right; /* Align the second header to the right */
+}
+
+/* Style for the paragraph container */
+.paragraph-container {
+    display: flex;
+    flex-direction: row; /* Horizontal arrangement: left and right */
+    justify-content: space-between; /* Space between the two paragraphs */
+}
+
+/* Style for the first paragraph */
+#firstP {
+    flex: 1; /* Allow the first paragraph to grow and take available space */
+    text-align: left; /* Align the text to the left within its container */
+}
+
+/* Style for the second paragraph */
+#secondP {
+    flex: 1; /* Allow the second paragraph to grow and take available space */
+    text-align: right; /* Align the text to the right within its container */
+}
+
+  
+
+
+
+/* Section with background color #6b4205 */
+#rumi {
+    background-color: #a97221; /* A lighter shade of orange/brown */
+    border: 2px solid #6b4205; /* Same border color as the background */
+    padding: 10%;
+    text-align: left; /* Align the text to the left within the section */
+    padding-left: 20px; /* Add left padding to create a margin effect */
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style for the text content */
+#rumi-content {
+    flex: 1;
+    padding: 10%;
+}
+
+/* Style for the image */
+#rumi-img {
+    flex: 1;
+    text-align: right; /* Align the image to the right */
+}
+
+/* Style for the image within the container */
+#rumi-img img {
+    
+    height: auto;
+}
+
+  
+  #rumi h2 {
+    text-align: left;
+    margin-left: 5%; /* Align the h2 text to the left */
+  }
+  
+  #rumi p {
+    margin-left: 5%; /* Add a left margin to the paragraph */
+    max-width: 100%; /* Limit the width of the paragraph */
+  }
+  
+
+/* Section with background color #9b5039 */
+#kitaplar {
+    background-color: #c68a68; /* A lighter shade of brownish-orange */
+    border: 2px solid #9b5039; /* Same border color as the background */
+    padding: 15%;
+}
+#kitaplar h1{
+    text-align: center;
+}
+
+ul#bookList {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    justify-content: space-between; /* Distribute space evenly between items */
+}
+
+ul#bookList li {
+    flex-basis: calc(33.33% - 2%); /* Three books per line with increased spacing */
+    margin: 1%; /* Increase the margin for more space between items */
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 4%; /* Increase the padding for more space within each item */
+    box-sizing: border-box; 
+   
+}
+
+ul#bookList img {
+    width: 100%; /* Set a fixed width to make all images the same size */
+    height: 100%
+}
+/* Section with background color #222222 */
+#iletisim {
+    background-color: #444444; /* A lighter shade of dark gray */
+    border: 2px solid #222222; /* Same border color as the background */
+    padding: 25%;
+}
